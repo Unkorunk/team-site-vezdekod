@@ -5,27 +5,15 @@ import avatar_yuriy from './avatar/yuriy.jpg';
 
 import './App.css';
 import {
-    AdaptivityProvider,
-    ConfigProvider,
-    useAdaptivity,
     AppRoot,
-    SplitLayout,
-    SplitCol,
-    ViewWidth,
-    View,
     Panel,
     PanelHeader,
     Avatar,
-    Header,
-    Group,
-    SimpleCell,
     Banner
 } from "@vkontakte/vkui";
 import "@vkontakte/vkui/dist/vkui.css";
 
 function App() {
-    const {viewWidth} = useAdaptivity();
-
     return (
         <AppRoot>
             <Panel id="header">

@@ -2,18 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import {
     AdaptivityProvider,
-    ConfigProvider,
-    useAdaptivity,
-    AppRoot,
-    SplitLayout,
-    SplitCol,
-    ViewWidth,
-    View,
-    Panel,
-    PanelHeader,
-    Header,
-    Group,
-    SimpleCell
+    ConfigProvider
 } from "@vkontakte/vkui";
 import "@vkontakte/vkui/dist/vkui.css";
 import './index.css';
